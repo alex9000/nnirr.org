@@ -1,0 +1,227 @@
+/* $Id: navigation.css,v 1.5 2009/11/04 19:42:41 johnalbin Exp $ */
+
+/**
+* @file
+* Navigation Styling
+*/
+
+
+/*
+* The active item in a Drupal menu
+*/
+li a.active {
+	color: #000;
+}
+
+/*
+* Navigation bar
+*/
+#navigation {
+}
+
+#navigation a:link, #navigation a:visited, #navigation a:hover {
+	color: transparent;
+	text-decoration: none;
+}
+
+#navigation a:active, #navigation a:hover, #navigation a.active {
+	color: transparent;
+}
+
+.region-navigation {
+}
+
+/*
+* Primary and Secondary menu links
+*/
+ul#main-menu {
+	padding: 0;
+}
+
+ul#main-menu li.first {
+	padding-left: 40px;
+}
+
+ul#main-menu li a {
+	height: 54px;
+	display: block;
+}
+
+
+/*HOME*/
+#main-menu li a#nnirr_home {
+	width: 52px;
+	text-indent: -100em;
+}
+
+#main-menu li a:link#nnirr_home, #main-menu li a:visited#nnirr_home {
+	background: url(../images/home.png) no-repeat 0 0;
+}
+
+#main-menu li.active-trail a#nnirr_home {
+	background: url(../images/home-1.png) no-repeat 0 0;
+}
+
+/*ABOUT*/
+#main-menu li a#nnirr_about {
+	width: 91px;
+}
+
+#main-menu li a:link#nnirr_about, #main-menu li a:visited#nnirr_about {
+	background: url(../images/about.png) no-repeat 0 0;
+}
+
+#main-menu li.active-trail a#nnirr_about{
+	background: url(../images/about-1.png) no-repeat 0 0;
+}
+
+/*GET INVOLVED*/
+#main-menu li a#nnirr_get_involved {
+	width: 130px;
+}
+
+#main-menu li a:link#nnirr_get_involved, #main-menu li a:visited#nnirr_get_involved {
+	background: url(../images/get-involved.png) no-repeat 0 0;
+}
+
+#main-menu li.active-trail a#nnirr_get_involved {
+	background: url(../images/get-involved-1.png) no-repeat 0 0;
+}
+
+/*NEWS & MEDIA*/
+#main-menu li a#nnirr_news {
+	width: 136px;
+}
+
+#main-menu li a:link#nnirr_news, #main-menu li a:visited#nnirr_news {
+	background: url(../images/news-media.png) no-repeat 0 0;
+}
+
+
+#main-menu li.active-trail a#nnirr_news {
+	background: url(../images/news-media-1.png) no-repeat 0 0;
+}
+
+/*BLOG*/
+#main-menu li a#nnirr_blog {
+	width: 47px;
+}
+
+#main-menu li a:link#nnirr_blog, #main-menu li a:visited#nnirr_blog {
+	background: url(../images/blog.png) no-repeat 0 0;
+}
+
+#main-menu li.active-trail a#nnirr_blog{
+	background: url(../images/blog-1.png) no-repeat 0 0;
+}
+
+/*PROGRAMS*/
+#main-menu li a#nnirr_programs {
+	width: 100px;
+}
+
+#main-menu li a:link#nnirr_programs, #main-menu li a:visited#nnirr_programs {
+	background: url(../images/programs.png) no-repeat 0 0;
+}
+
+#main-menu li.active-trail a#nnirr_programs{
+	background: url(../images/programs-1.png) no-repeat 0 0;
+}
+
+/*CALENDAR*/
+#main-menu li a#nnirr_calendar {
+	width: 94px;
+}
+
+#main-menu li a:link#nnirr_calendar, #main-menu li a:visited#nnirr_calendar {
+	background: url(../images/calendar.png) no-repeat 0 0;
+}
+
+#main-menu li.active-trail a#nnirr_calendar {
+	background: url(../images/calendar-1.png) no-repeat 0 0;
+}
+
+
+/*SHOP*/
+#main-menu li a#nnirr_shop {
+	width: 49px;
+}
+
+#main-menu li a:link#nnirr_shop, #main-menu li a:visited#nnirr_shop {
+	background: url(../images/shop.png) no-repeat 0 0;
+}
+
+#main-menu li.active-trail a#nnirr_shop{
+	background: url(../images/shop-1.png) no-repeat 0 0;
+}
+
+
+#secondary-menu {
+}
+
+/*
+* Menu blocks
+*/
+.block-menu {
+}
+
+/*
+* "Menu block" blocks. See http://drupal.org/project/menu_block
+*/
+.block-menu_block {
+}
+
+/* Sub Navigation Block*/
+/* Blog Archives Block*/
+/* Categories Block*/
+div.block-sub-navigation ul,
+div.block-blog-archive ul,
+div.block-categories ul,
+div.block-language-switcher ul
+{
+	padding: 0;
+}
+
+
+div.block-sub-navigation ul.menu li.leaf,
+div.block-blog-archive ul.views-summary li,
+div.block-categories ul li,
+div.block-language-switcher ul li  {
+	font-family: Arial, sans-serif;
+	font-size: 1.125em;
+	line-height: 1em;
+	border-bottom: dotted 1px #666666;
+	line-height: 1.5em;
+	list-style-image: none;
+	list-style-type: none;
+	padding: 0 0 0 1.25em;
+}
+
+div.block-blog-archive ul.views-summary li,
+div.block-categories ul li,
+div.block-language-switcher ul li
+{
+	padding: 0;
+}
+
+
+div.block-sub-navigation ul.menu li.leaf.active,
+div.block-blog-archive ul.views-summary li a.active,
+div.block-categories ul li a.active,
+div.block-language-switcher ul li a.active{
+	background: url(../images/orange-bullet.png) no-repeat 5px 50%;
+}
+
+div.block-blog-archive ul.views-summary li a,
+div.block-categories ul li a,
+div.block-language-switcher ul li a{
+	padding: 0 0 0 1.25em;
+}
+
+div.block-sub-navigation a, 
+div.block-blog-archive a,
+div.block-categories a,
+{
+	color: #333;
+}
+

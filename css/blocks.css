@@ -1,0 +1,231 @@
+/* $Id: blocks.css,v 1.4 2009/11/05 11:05:39 johnalbin Exp $ */
+
+/**
+ * @file
+ * Block Styling
+ */
+
+
+.block /* Block wrapper */ {
+  margin-bottom: 1.25em;
+}
+
+.block.region-odd /* Zebra striping for each block in the region */ {
+}
+
+.block.region-even /* Zebra striping for each block in the region */ {
+}
+
+.block.odd /* Zebra striping independent of each region */ {
+}
+
+.block.even /* Zebra striping independent of each region */ {
+}
+
+.region-count-1 /* Incremental count for each block in the region */ {
+}
+
+.count-1 /* Incremental count independent of each region */ {
+}
+
+.block h2.title /* Block title */ {
+}
+
+.block .content /* Block's content wrapper */ {
+}
+
+#block-aggregator-category-1 /* Block for the latest news items in the first category */ {
+}
+
+#block-aggregator-feed-1 /* Block for the latest news items in the first feed */ {
+}
+
+#block-block-1 /* First administrator-defined block */ {
+}
+
+#block-blog-0 /* "Recent blog posts" block */ {
+}
+
+#block-book-0 /* "Book navigation" block for the current book's table of contents */ {
+}
+
+#block-comment-0 /* "Recent comments" block */ {
+}
+
+#block-forum-0 /* "Active forum topics" block */ {
+}
+
+#block-forum-1 /* "New forum topics" block */ {
+}
+
+#block-menu-primary-links /* "Primary links" block */ {
+}
+
+#block-menu-secondary-links /* "Secondary links" block */ {
+}
+
+#block-node-0 /* "Syndicate" block for primary RSS feed */ {
+}
+
+#block-poll-0 /* "Most recent poll" block */ {
+}
+
+#block-profile-0 /* "Author information" block for the profile of the page's author */ {
+}
+
+#block-search-0 /* "Search form" block */ {
+}
+
+#block-statistics-0 /* "Popular content" block */ {
+}
+
+#block-user-0 /* "User login form" block */ {
+}
+
+#block-user-1 /* "Navigation" block for Drupal navigation menu */ {
+}
+
+#block-user-2 /* "Who's new" block for a list of the newest users */ {
+}
+
+#block-user-3 /* "Who's online" block for a list of the online users */ {
+}
+
+
+.block-blog-archive{
+	margin: 0 0 1.9em 0;
+}
+
+
+div#block-views-slideshow-block_1.block {
+margin-bottom: 1em;	
+}
+
+
+#block-views-action_alert-block_1{
+	height: 240px;
+	position: relative;
+}
+
+div.block-press-releases{
+	border-bottom: 1px solid #418C50;
+}
+
+div#block-views-programs-block_1{
+	clear: both;
+	margin: 0 0 1em 40px;
+	width: 910px;
+}
+
+div.block-contact{
+	border-bottom: 1px solid #1DA092;
+}
+
+/*Social Block*/
+div#social-block{
+	width: 910px;
+	height: 300px;
+	background: #282828;
+	margin: 0 0 20px 40px;
+	color: #ECE8DC;
+	margin: 0 0 0 40px;
+	padding: 20px 20px;
+}
+div#social-block h2{
+	margin: 0 0 0 0;
+	text-transform: uppercase;
+	font-size: 1.2em;
+}
+
+div#social-block  div#facebook, div#social-block div#stay-connected, div#social-block div#youtube{
+	border: solid 1px red;
+	float: left;
+	margin: 0 0 0 0;
+}
+
+div#social-block div#stay-connected{
+	width: 255px;
+	margin: 0 0 0 0;
+}
+
+div#social-block div#facebook{
+	margin: 0 0 0 30px;
+	
+}
+
+div#social-block div#youtube{
+	width: 270px;
+	margin-right:20px;
+	margin: 0 0 0 24px;	
+}
+
+div#social-block div.flashunit{
+	padding: 25px 0 0 0;
+}
+div.check-out-block{
+	margin-bottom: .5625em;
+}
+
+.block-social-media{
+	width: 910px;
+	height: 300px;
+	background: #000;
+	margin: 0 0 0 40px;
+}
+
+.block-social-media div.content div{
+	width: 275px;
+	margin: 20px 0 20px 20px;
+	float: left;
+}
+
+.block-social-media div.content div#stay-connected div{
+	
+}
+
+.block-social-media div#stay-connected p{
+  font-family: Arial, Helvetica, "Nimbus Sans L", sans-serif;
+	font-size: 1.125em;
+	line-height: 1.2;
+	font-weight: 700;
+	color: #DCDDDE;
+	margin: 60px 0 0 0;
+	padding: 0 0 0 40px;
+	background: url(../images/email.png) no-repeat;
+}
+
+.block-social-media div#stay-connected p a{
+	
+font-size: .75em;
+font-weight: 400; 
+color: #1DA092;
+display: block;
+
+}
+
+.block-social-media img{
+	margin: 0 10px 0 0;
+}
+
+.block-social-media h2{
+	color: #F6EFD9;
+	margin: 0 0 25px 0;
+	font-family: "Trebuchet Bold", "Trebuchet MS", sans-serif;
+	font-size:  1.2em;
+	text-transform: uppercase;
+}
+
+.block-social-media a:link;{
+	color: #1DA092;
+}
+
+/*SPECIAL OFFERS BLOCK*/
+div.special-offers-block{
+	border-bottom: 1px solid #1DA092;
+}
+
+
+/*Join Donate Block*/
+div.block-join-donate{
+	margin-bottom: 1em;
+}

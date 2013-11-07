@@ -1,0 +1,349 @@
+/* $Id: views-styles.css,v 1.1 2009/08/12 04:25:15 johnalbin Exp $ */
+
+/**
+ * @file
+ * Views Styling
+ */
+
+
+/* HOMEPAGE SLIDESHOW */
+#transparency{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 600px;
+	height: 55px;
+	background-color: #000;
+	filter:alpha(opacity=90);
+	opacity: 0.9;
+	-moz-opacity:0.9;
+}
+#mycontent{
+	position: absolute;
+	top: 255px;
+	left: 20px;
+	color: #FFF;
+}
+#mycontent h2{
+	margin:0;
+	text-transform: lowercase;
+	font-family: "Arial Black",Gadget,sans-serif;
+	font-size: 1.25em;
+	color: #F7EFE0
+}
+#mycontent p{
+	margin: 0;
+	font-weight: normal;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: .9em;
+	color: #FFF;
+}
+div.slideshow div.view-content{
+	position: relative;
+}
+div.views-slideshow-controls-bottom {
+bottom: 8px;
+position: absolute;
+right: -25px;
+z-index: 10;
+padding: 0;
+}
+
+div.views-slideshow-controls-bottom .pager-item a{
+	background-color: transparent;
+	width: 20px;
+	height: 20px;
+	margin-right: 2px;
+	text-align: center;
+	display: block;
+	float: left;
+	text-decoration: none;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 1em;
+	color: #666666;
+	line-height: 1.25em;
+}
+
+div.views-slideshow-controls-bottom .pager-item.activeSlide a{
+	background-color: #F7EFE0;
+}
+
+/* BLOCK SECTION HEADERS*/
+div.block-action-alert h2.title, 
+div.block-press-releases h2.title, 
+div#block-views-programs-block_1 h2.title,
+div.block-contact h2.title,
+div.block-sub-navigation h2.title,
+div.special-offers-block h2.title,
+div.block-blog-archive h2.title,
+div.block-categories h2.title,
+div.block-language-switcher h2.title{
+  border-top: 10px solid;
+  padding-top: 5px;
+  margin: 0 0 5px 0;
+  font-family: "Trebuchet Bold", "Trebuchet MS", sans-serif;
+  font-size: 1.2em;	
+  text-transform: uppercase;
+	
+}
+
+div.block-action-alert h2.title{
+	color: #000;
+	border-top-color: #000;
+}
+
+div.block-categories h2.title{
+	color: #1DA092;
+	border-top-color: #1DA092; /*teal*/
+}
+
+div.block-press-releases h2.title {
+	color: #418C50;
+	border-top-color: #418C50;
+}
+
+div#block-views-programs-block_1 h2.title{
+	color: #E3C996;
+	border-top-color: #E3C996;
+}
+
+div.block-contact h2.title{
+	border-top-color: #1DA092;
+	color:#1DA092;
+}
+
+div.special-offers-block h2.title{
+	border-top-color: #1DA092; /*Teal*/
+	color:#1DA092;
+}
+
+/*Action Alert Content List Titles*/
+
+div.block-action-alert a:link,
+div.block-action-alert a:active, 
+div.block-action-alert a:visited,
+div.block-action-alert a:hover{
+	color: #000;
+}
+
+div.block-action-alert div.view-header a, 
+div.block-action-alert div.views-field-title a,
+div.block-action-alert div.views-field-teaser p{
+	font-family: "Lucida Sans Unicode", "Lucida Grande", Verdana, Arial, Helvetica, sans-serif;
+}
+div.block-action-alert div.views-field-teaser p{
+font-size: 1em;
+}
+
+div.block-action-alert div.view-footer{
+	position: absolute;
+	bottom: 0;
+}
+
+div.block-action-alert div.views-row
+{
+	margin: 0 0 20px 0;
+	font-size: .8em;
+}
+
+div.block-action-alert div.view-header p {
+line-height: 42px;
+background: url(../images/alert_abuse.png) no-repeat;
+padding: 0 0 0 50px;
+}
+
+div.block-action-alert div.view-header a{
+	margin: 0 0 25px 0;
+	font-size: 1em;
+}
+
+div.block-action-alert .item-list ul{
+	padding: 0;
+	margin: 0;
+	height: 145px;
+	overflow: auto;
+}
+
+div.block-action-alert .item-list ul li {
+	list-style: none;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", Verdana, Arial, Helvetica, sans-serif;
+	font-size: .8125em;
+	padding: 0 0 0 50px;
+	background: url(../images/alert_phone.png) no-repeat;
+}
+
+
+div.block-press-releases .item-list ul{
+	padding: 0;
+}
+
+/*Press Release Block*/
+
+div.block-press-releases a:link,
+div.block-press-releases a:active, 
+div.block-press-releases a:visited,
+div.block-press-releases a:hover{
+	color: #000;
+}
+
+div.block-press-releases div.views-field-title a{
+	font-family: "Arial Bold", Arial, sans-serif;
+}
+
+div.block-press-releases div.views-row{
+	font-size: .8em;
+	margin: 0 0 0 0;
+}
+
+
+div.block-press-releases .item-list ul li {
+	list-style: none;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", Verdana, Arial, Helvetica, sans-serif;
+	font-size: .9em;
+	padding: 0;
+	margin: 0 0 .8em 0;
+}
+
+/*Programs View*/
+
+div.programs .item-list ul{
+	margin: 0;
+	padding: 0;
+}
+
+div.programs .item-list ul li{
+	list-style: none;
+	float: left;
+	margin: 0 15px 0 0;
+	width: 214px;
+}
+
+div.programs .item-list ul li.views-row-last{
+	margin: 0;
+}
+
+
+div.programs .item-list ul li div.views-field-title span.field-content a{
+font-family: "Arial Bold", Arial, sans-serif;
+font-size: 1em;
+color: #1DA092;
+text-decoration: none;
+}
+
+
+/*Product Views*/
+div.view-curriculum .item-list ul,  
+div.view-publications .item-list ul,
+div.view-videos .item-list ul,
+div.view-t-shirts .item-list ul
+{
+	list-style: none;
+	padding: 0 0 1em 0;
+	border-bottom: #666666 1px dotted;
+}
+
+div.views-field-field-product-image-fid{
+	float: left;
+	margin: 0 20px 0 0;
+}
+
+div.view-publications div.views-field-title,
+div.view-curriculum div.views-field-title,
+div.view-videos div.views-field-title,
+div.view-t-shirts div.views-field-title{
+	font-weight: 700;
+}
+
+div.views-field-field-product-subtitle-value,
+div.views-field-field-product-terms-value{
+	font-size: .8125em;
+}
+
+div.views-field-field-product-subtitle-value{
+	color:#666666; /*grey*/
+}
+
+div.views-field-field-product-terms-value{
+	color: #1DA092; /*teal*/
+	margin: 0 0 1.25em 0;
+}
+
+div.view-curriculum form, 
+div.view-publications form,
+div.view-videos form,
+div.view-t-shirts form{
+	margin: 0 0 1.5em 0;
+}
+
+
+div.view-footer img{
+	float: left;
+}
+
+
+/* PRESS RELEASES VIEW*/
+
+
+div.block-press-releases div.views-field-created{
+	font-family: "Lucida Grande", sans-serif;
+	font-size: .8em;
+	color: #838383;
+}
+div.block-press-releases div.views-row
+ {
+	margin: 0 0 .8em 0;
+}
+
+/* SPECIAL OFFERS BLOCK*/
+div.special-offers-block .item-list ul{
+	padding: 0;
+}
+
+div.special-offers-block .item-list ul li {
+	list-style: none;
+	margin: 0 0 1.25em 0;
+}
+
+
+div.special-offers-block div.view-footer p a{
+	color: #1DA092;
+}
+
+div.special-offers-block div.views-field-teaser p{
+display: inline;
+}
+
+div.special-offers-block span.read-more{
+	font-size: .825em;
+}
+
+/*Edit Link*/
+/*
+div.views-field-edit-node span.field-content{
+	background: url(../images/edit.png) no-repeat;
+	width: 70px;
+	height: 25px;
+}
+*/
+
+
+/*BLOG*/
+body.page-blog h1.title{
+	margin: 0 0 .6em 0;
+	padding: 0;
+}
+
+body.page-blog #content-area div h2.title a:hover{
+	color: #1DA092;
+}
+
+div#content-area div.page-view-blog h2.title{
+	font-size: 1.625em;
+	line-height: 1.125;
+	margin: 0px 0px 0.2em;
+	letter-spacing:-1.2px
+}
+
+div#content-area div.page-view-blog{
+	margin: 0 0 1em 0;
+}
